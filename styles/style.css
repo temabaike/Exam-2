@@ -160,8 +160,37 @@ color: white;
 padding: 15px;
 }
 
+.language__eng {
+margin-left: 10px;
+}
+
+span {
+  margin-left: 100px;
+}
 .footer-end {
   display: flex;
   justify-content: space-around;
+}
+
+.footer-logo {
+  margin-right: 10px;
+}
+
+.line {
+  width: 90vw;
+  height: 1px;
+  background-color: rgb(167, 162, 162);
+  margin: 40px auto 40px;
+}
+
+.footer__column, .footer-end {
+font-weight: var(--font-weight);
+font-size: var(--font-size-main);
+line-height: 15px;
+color: #FFFFFF;
+} 
+
+.footer-img {
+  margin: 40px;
 }
 
