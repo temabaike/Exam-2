@@ -105,7 +105,7 @@ margin-right: 40px;
   font-size: 22px;
   line-height: 34px;
   color: #1D1D1D;
-  margin: 35px;
+  margin: 35px 185px;
 }
 
 .main-section {
@@ -153,11 +153,11 @@ justify-content: space-around;
 
 .language {
 width: 227px;
-height: 30px;
+height: 20px;
 background: #3B3B3B;
 border-radius: 2px;
 color: white;
-padding: 15px;
+padding: 10px;
 }
 
 .language__eng {
@@ -194,3 +194,70 @@ color: #FFFFFF;
   margin: 40px;
 }
 
+@media (max-width: 768px) {
+  .menu, .main-section {
+    padding: 30px;
+  }
+
+ .cards {
+  width: 750px;
+ }
+
+ .main__name {
+   margin-left: 30px;
+ }
+}
+
+@media (max-width: 320px) {
+  .welcome-page {
+    background-image: url(../assets/small_bg.png);
+    height: 255px;
+    width: 320px;
+    align-items: flex-end;
+  }
+
+  .basket, .menu {
+    display: none;
+  }
+
+  .header {
+    padding: 16px 0px 16px 0px;
+  }
+
+  .welcome-name {
+    width: 320px;
+    padding: 0px;
+    margin: 0px 5px 5px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .main__name {
+    text-align: center;
+    margin: 20px 0px 20px;
+  }
+
+  .button__in, .button__reg {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .header__logo {
+    margin-left: 5px;
+  }
+
+  .cards__price {
+    margin-top: 10px;
+  }
+
+  .main-section {
+    padding: 0;
+  }
+
+  .footer-content, .footer-end {
+    flex-direction: column;
+  }
+}
