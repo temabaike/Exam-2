@@ -164,7 +164,7 @@ padding: 10px;
 margin-left: 10px;
 }
 
-span {
+.shape {
   margin-left: 100px;
 }
 .footer-end {
@@ -199,13 +199,13 @@ color: #FFFFFF;
     padding: 30px;
   }
 
- .cards {
+  .cards {
   width: 750px;
- }
+  }
 
- .main__name {
-   margin-left: 30px;
- }
+  .main__name {
+  margin-left: 30px;
+  }
 }
 
 @media (max-width: 320px) {
