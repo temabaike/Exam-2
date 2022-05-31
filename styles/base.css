@@ -1,0 +1,19 @@
+:root {
+  --font-weight: 400;
+  --font-weight-bold: 500;
+  --main-bg:#FFFFFF;
+  --secondary-bg:#262626;
+  --font-size-main:16px;
+  --font-size-secondary:13px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body, div, ul, li, figure, h1, h2, h3, span, a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}

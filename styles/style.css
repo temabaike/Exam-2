@@ -1,0 +1,263 @@
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 85px 16px;
+}
+
+.button__in, .button__reg {
+width: 80px;
+height: 40px;
+border-radius: 2px;
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-secondary);
+line-height: 24px;
+border: none;
+margin-right: 16px;
+}
+
+.button__in {
+  border: 1px solid #E0E0E0;
+}
+
+.button__reg {
+  background: #262626;
+  color: white;
+}
+
+.button__reg:focus {
+  background: #57AD56;
+}
+
+.button__in:focus {
+  background: #57AD56;
+  color: white;
+}
+
+.welcome-page {
+  background-image: url(../assets/photo.png);
+  height: 364px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-name {
+width: 380px;
+height: 170px;
+background-color: white;
+padding: 30px;
+text-align: center;
+margin-left: 80px;
+}
+
+.name {
+  font-weight: var(--font-weight);
+  font-size: 36px;
+  line-height: 42px;
+  color: #1D1D1D;
+  margin-bottom: 60px;
+}
+
+.name__description {
+display: inline;
+font-weight: var(--font-weight);
+font-size: 14px;
+line-height: 16px;
+color: #626262;
+margin-right: 90px;
+}
+
+.name__time {
+display: inline;
+background: #262626;
+border-radius: 16px;
+color: white;
+font-weight: var(--font-weight);
+font-size: var(--font-size-secondary);
+line-height: 15px;
+padding: 5px;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  padding: 30px 80px 30px;
+  border: 1px solid #d3d3d3;
+}
+
+.menu__list {
+font-weight: var(--font-weight);
+font-size: var(--font-size-main);
+line-height: 19px;
+color: #626262;
+margin-right: 40px;
+}
+
+.menu__list:focus {
+  color:#327430;
+}
+
+.main__name {
+  font-weight: var(--font-weight);
+  font-size: 22px;
+  line-height: 34px;
+  color: #1D1D1D;
+  margin: 35px 185px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 80px 80px;
+}
+
+.cards {
+  width: 470px;
+  height: 160px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+border-radius: 2px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.cards__name {
+font-weight: var(--font-weight);
+font-size: var(--font-size-main);
+line-height: 24px;
+color: #1D1D1D;
+margin: 16px 16px;
+}
+
+.cards__price {
+font-weight: var(--font-weight-bold);
+font-size: 15px;
+line-height: 21px;
+color: #1D1D1D;
+margin: 80px 16px ;
+}
+
+.footer {
+  background: #262626;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+justify-content: space-around;
+}
+
+.language {
+width: 227px;
+height: 20px;
+background: #3B3B3B;
+border-radius: 2px;
+color: white;
+padding: 10px;
+}
+
+.language__eng {
+margin-left: 10px;
+}
+
+.shape {
+  margin-left: 100px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  margin-right: 10px;
+}
+
+.line {
+  width: 90vw;
+  height: 1px;
+  background-color: rgb(167, 162, 162);
+  margin: 40px auto 40px;
+}
+
+.footer__column, .footer-end {
+font-weight: var(--font-weight);
+font-size: var(--font-size-main);
+line-height: 15px;
+color: #FFFFFF;
+} 
+
+.footer-img {
+  margin: 40px;
+}
+
+@media (max-width: 768px) {
+  .menu, .main-section {
+    padding: 30px;
+  }
+
+  .cards {
+  width: 750px;
+  }
+
+  .main__name {
+  margin-left: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .welcome-page {
+    background-image: url(../assets/small_bg.png);
+    height: 255px;
+    width: 320px;
+    align-items: flex-end;
+  }
+
+  .basket, .menu {
+    display: none;
+  }
+
+  .header {
+    padding: 16px 0px 16px 0px;
+  }
+
+  .welcome-name {
+    width: 320px;
+    padding: 0px;
+    margin: 0px 5px 5px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .main__name {
+    text-align: center;
+    margin: 20px 0px 20px;
+  }
+
+  .button__in, .button__reg {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .header__logo {
+    margin-left: 5px;
+  }
+
+  .cards__price {
+    margin-top: 10px;
+  }
+
+  .main-section {
+    padding: 0;
+  }
+
+  .footer-content, .footer-end {
+    flex-direction: column;
+  }
+}
